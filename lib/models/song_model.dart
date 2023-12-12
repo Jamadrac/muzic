@@ -2,33 +2,33 @@ class Song {
   final String title;
   final String description;
   final String url;
-  final String coverurl;
+  final String coverUrl;
 
   Song({
     required this.title,
     required this.description,
     required this.url,
-    required this.coverurl,
+    required this.coverUrl,
   });
 
   static List<Song> songs = [
     Song(
-      title: 'Song 1',
-      description: 'Description 1',
-      url: 'assets/music/Song1.mp3',
-      coverurl: 'assets/images/album1.jpg', // Corrected path
+      title: 'Glass',
+      description: 'Glass',
+      url: 'assets/music/glass.mp3',
+      coverUrl: 'assets/images/glass.jpg',
     ),
     Song(
-      title: 'Song 2',
-      description: 'Description 2',
-      url: 'assets/music/Song2.mp3',
-      coverurl: 'assets/images/album2.jpg', // Corrected path
+      title: 'Illusions',
+      description: 'Illusions',
+      url: 'assets/music/illusions.mp3',
+      coverUrl: 'assets/images/illusions.jpg',
     ),
     Song(
-      title: 'Song 3',
-      description: 'Description 3',
-      url: 'assets/music/Song3.mp3',
-      coverurl: 'assets/images/album3.jpg', // Corrected path
-    ),
+      title: 'Pray',
+      description: 'Pray',
+      url: 'assets/music/pray.mp3',
+      coverUrl: 'assets/images/pray.jpg',
+    )
   ];
 }
