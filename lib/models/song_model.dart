@@ -15,21 +15,20 @@ class Song {
     Song(
       title: 'Song 1',
       description: 'Description 1',
-      url: 'assets\music\Ada -  I Testify Lyrics (Lyric Video)(MP3_160K).mp3',
-      coverurl: 'https://picsum.photos/250?image=9',
+      url: 'assets/music/Song1.mp3',
+      coverurl: 'assets/images/album1.jpg', // Corrected path
     ),
     Song(
       title: 'Song 2',
       description: 'Description 2',
-      url:
-          'assets\music\CHRIS SHALOM-POWER BELONGS TO YOU [HOMEMADE VIDEO](MP3_160K).mp3',
-      coverurl: 'https://picsum.photos/250?image=9',
+      url: 'assets/music/Song2.mp3',
+      coverurl: 'assets/images/album2.jpg', // Corrected path
     ),
     Song(
       title: 'Song 3',
       description: 'Description 3',
-      url: 'assets\music\Chileshe Bwalya - Nchingilileni(M4A_128K).m4a',
-      coverurl: 'https://picsum.photos/250?image=9',
+      url: 'assets/music/Song3.mp3',
+      coverurl: 'assets/images/album3.jpg', // Corrected path
     ),
   ];
 }

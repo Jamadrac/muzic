@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:muzic/models/song_model.dart';
+import 'package:muzic/widgets/SongCard.dart';
 import 'package:muzic/widgets/widgets.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -56,17 +57,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                 scrollDirection: Axis.horizontal,
                                 itemCount: songs.length,
                                 itemBuilder: (BuildContext context, int index) {
-                                  return Container(
-                                    width: MediaQuery.of(context)!.size.width *
-                                        0.45,
-                                    decoration: BoxDecoration(
-                                      image: DecorationImage(
-                                        image:
-                                            AssetImage(songs[index].coverurl),
-                                        fit: BoxFit.cover,
-                                      ),
-                                    ),
-                                  );
+                                  return SongCard(song: song);
                                 },
                               ),
                             )
